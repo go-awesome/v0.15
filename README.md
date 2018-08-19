@@ -1,8 +1,6 @@
 # v0.15 of µWebSockets
 
-µWS ("[micro](https://en.wikipedia.org/wiki/Micro-)WS") is a modern C++17 implementation of WebSockets & HTTP. It focuses on performance & memory usage and has been shown to outperform Node.js v10 some 13x (8x with SSL) while still being just as easy to work with.
-
-µWS v0.15 is about 20% faster than v0.14 for small sends, 260% faster for large sends (50 MB).
+µWS ("[micro](https://en.wikipedia.org/wiki/Micro-)WS") is a fast and lightweight web stack with focus on "real-time" communication with WebSockets. It features pub/sub, http routing, tls 1.3, ipv6 and is async only.
 
 #### Pub/sub
 One of the most popular usages of WebSockets is to deliver a message sent under a topic to all subscribers of said topic. This functionality is easy to implement and even easier to completely mess up, resulting in a very inefficient solution.
