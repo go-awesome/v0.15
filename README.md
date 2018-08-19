@@ -1,6 +1,6 @@
 # v0.15 of µWebSockets
 
-µWS ("[micro](https://en.wikipedia.org/wiki/Micro-)WS") is a fast and lightweight web stack with focus on "real-time" communication with WebSockets. It features pub/sub, http routing, tls 1.3, ipv6 and is async only.
+µWS ("[micro](https://en.wikipedia.org/wiki/Micro-)WS") is fast and lightweight message passing for the web.
 
 #### Pub/sub
 One of the most popular usages of WebSockets is to deliver a message sent under a topic to all subscribers of said topic. This functionality is easy to implement and even easier to completely mess up, resulting in a very inefficient solution.
